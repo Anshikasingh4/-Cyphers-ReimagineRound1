@@ -998,7 +998,7 @@ html,body {
     font-size: 15px;
 }
 
-/* @media (max-width:600px) {
+@media (max-width:600px) {
     #page1 {
         font-family: "isidora";
         overflow: hidden;
@@ -1012,7 +1012,7 @@ html,body {
         height: 100%;
         width: 100%;
         background-color: black;
-        /* position: fixed; 
+        position: fixed; 
         top: 0;
         z-index: 99;
         display: flex;
@@ -1294,9 +1294,9 @@ html,body {
     }
 
     }
- */
+ 
 
- /* @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     #left input {
         width: 180px;
         margin-left: 10px;
@@ -1442,7 +1442,7 @@ html,body {
     #hand img {
         scale: 0.4;
     }
-} */
+}
 
 @media screen and (max-width: 480px) {
     #offers h2 {
@@ -1488,7 +1488,7 @@ html,body {
     #shopnow {
         width: 100%;
         margin-left: 0;
-        margin-top: 300px;
+        /* margin-top: 300px; */
         text-align: center;
     }
 
