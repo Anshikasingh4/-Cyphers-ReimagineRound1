@@ -1439,7 +1439,7 @@ html,body {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     #offers h2 {
         font-size: 12px;
     }
@@ -1453,10 +1453,14 @@ html,body {
         width: 100px;
         padding: 0 0.5vw;
     }
-
+    
+    #bgline{
+        display: none;
+    }
     #Blob,
     #brownblob {
         display: flex;
+        margin-top: 110px;
         height: 200px;
         width: 200px;
     }
@@ -1466,37 +1470,57 @@ html,body {
     }
     #left-text,
     #right-text {
-        font-size: 7vw;
-        margin-left: 10px;
-        margin-right: 10px;
+        font-size: 11vw;
+        margin-left: 30px;
+        margin-right: -10px;
     }
 
     #hand {
-        margin-top: 300px;
         height: 200px;
         width: 150px;
     }
 
     #hand img {
+        margin-top: 110px;
         scale: 0.6;
     }
-
     #tagline,
-    #Info,
     #shopnow {
-        width: 100%;
+        width: 80%;
         margin-left: 0;
-        margin-top: 300px;
+        /* margin-top: 400px; */
         text-align: center;
     }
-
-    #img1,
-    #img2,
-    #img3,
-    #img4,
-    #img5 {
-
-        height: 40px;
-        width: 40px;
+    #tagline{
+        margin-top: -210px;
+        width: 60%;
+        margin-left: 10px;
+        /* font-size: x-small; */
     }
+    #shopnow{
+        width: 40%;
+
+
+    }
+    #info{
+        display: flex;
+        font-size: small;
+        margin-top: 400px;
+    }
+    #img2{
+        margin-top: 90px;
+    }
+
+    /* #img1, */
+    /* #img2, */
+    #img3,
+    #img4,#img5 {
+        margin-left: 70px;
+        margin-right: 100px;
+        margin-bottom: 60px;
+        /* margin-top: 20px; */
+        height: 50px;
+        width: 50px;
+    }
+
 }
