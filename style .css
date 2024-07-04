@@ -998,7 +998,7 @@ html,body {
     font-size: 15px;
 }
 
-@media (max-width:450px) {
+/* @media (max-width:600px) {
     #page1 {
         font-family: "isidora";
         overflow: hidden;
@@ -1006,6 +1006,19 @@ html,body {
         height: 100vh;
         width: 100%;
         background-color: #EFEAE3;
+    }
+
+    #loader{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        /* position: fixed; 
+        top: 0;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
     }
 
     #offers h2 {
@@ -1043,14 +1056,14 @@ html,body {
         height: 140px;
         width: 160px;
         margin-left: -15px;
-        margin-top: 10px;
+        margin-top: 80px;
     }
 
     #center {
         position: relative;
         height: 90vh;
         width: 100%;
-        /* background-color: red; */
+        /* background-color: red; 
         flex-direction: row;
         display: flex;
         align-items: end;
@@ -1071,7 +1084,7 @@ html,body {
         width: 100%;
         object-fit: cover;
         object-position: center;
-        margin-top: 70px;
+        margin-top: 140px;
         margin-right: 20px;
     }
 
@@ -1080,7 +1093,7 @@ html,body {
     }
 
     #brownblob {
-        margin-bottom: 180px;
+        margin-bottom: 160px;
         margin-left: 40px;
         height: 230px;
         width: 230px;
@@ -1098,7 +1111,7 @@ html,body {
         height: 400px;
         width: 100%;
         display: flex;
-        /* background-color: gray; */
+        /* background-color: gray; 
         align-items: center;
         justify-content: center;
         justify-content: space-between;
@@ -1129,7 +1142,7 @@ html,body {
         width: 100%;
         display: flex;
         align-items: center;
-        /* background-color: gray; */
+        /* background-color: gray; 
     }
 
     #tagline {
@@ -1149,15 +1162,15 @@ html,body {
     #Info {
         padding: 0px;
         margin-top: 260px;
-        margin-left: -22px;
+        margin-left: -16px;
         height: 120px;
         width: 200px;
     }
 
     #Info p {
         font-weight: 500;
-        margin-top: 4px;
-        font-size: 1.8vw;
+        margin-top: 6px;
+        font-size: 1.6vw;
     }
 
     #shopnow {
@@ -1181,7 +1194,7 @@ html,body {
     }
 
     #img1 {
-        /* background-color: rebeccapurple; */
+        /* background-color: rebeccapurple; 
         margin-left: 340px;
         margin-top: -70px;
         height: 100%;
@@ -1192,7 +1205,7 @@ html,body {
     }
 
     #img2 {
-        /* background-color: red; */
+        /* background-color: red; 
         margin-left: 4px;
         margin-top: -125px;
         height: 120%;
@@ -1202,7 +1215,7 @@ html,body {
     }
 
     #img3 {
-        /* background-color: green; */
+        /* background-color: green; 
         height: 140%;
         width: 140%;
         object-fit: contain;
@@ -1212,7 +1225,7 @@ html,body {
     }
 
     #img4 {
-        /* background-color: yellow; */
+        /* background-color: yellow; 
         margin-left: 100px;
         margin-top: 170px;
         height: 80%;
@@ -1222,12 +1235,263 @@ html,body {
     }
 
     #img5 {
-        /* background-color: palegoldenrod;  */
+        /* background-color: palegoldenrod;  
         margin-left: 300px;
         margin-top: 40px;
         height: 100%;
         width: 100%;
         object-fit: contain;
-        object-position: center;                                                     }
+        object-position: center;  }
+    
+    
+    #page2{
+        font-family: "morgan";
+        overflow: hidden;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-color: #EFEAE3;
+
     }
 
+    #container1 {
+        padding: 2vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #Showcase {
+        display: flex;
+        align-items: center;
+        /* padding: 10vw 0; 
+        height: 660px;
+        width: 900px;
+        /* background-color: rebeccapurple; 
+    }
+    
+    .swiper {
+        width: 100%;
+        height: 580px;
+        /* border-radius: 20px; 
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        /* border-radius: 15px; 
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* object-position: -900px; 
+    }
+
+    }
+ */
+
+ @media screen and (max-width: 1024px) {
+    #left input {
+        width: 180px;
+        margin-left: 10px;
+        padding: 0 1vw;
+    }
+
+    #right h4 {
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+
+    #Blob {
+        margin-top: 70px;
+        margin-left: 100px;
+        height: 150px;
+        width: 150px;
+    }
+
+    #hand {
+        height: 400px;
+        width: 300px;
+    }
+
+    #hand img {
+        margin-top: 20px;
+        scale: 0.5;
+    }
+
+    #left-text,
+    #right-text {
+        font-size: 8vw;
+        margin-left: 140px;
+        margin-right: 120px;
+    }
+
+    #center {
+        height: 80vh;
+    }
+
+    #container {
+        height: 400px;
+    }
+
+    #tagline {
+        margin-left: 200px;
+        height: 24px;
+        width: 150px;
+    }
+
+    #Info {
+        margin-left: 200px;
+        padding: 80px 5px;
+        height: 100px;
+        width: 150px;
+    }
+
+    #shopnow {
+        margin-left: 160px;
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5 {
+        height: 40px;
+        width: 40px;
+    }
+
+    #brownblob {
+        margin-bottom: 100px;
+        margin-left: 50px;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        padding: 2vw 2vw;
+        height: auto;
+    }
+
+    #left,
+    #right {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    #left input {
+        width: 150px;
+        margin-left: 5px;
+        padding: 0 0.5vw;
+    }
+
+    #Blob {
+        display: none;
+    }
+
+    #center {
+        height: 70vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #left-text,
+    #right-text {
+        font-size: 6vw;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #tagline,
+    #Info,
+    #shopnow {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5 {
+        height: 30px;
+        width: 30px;
+    }
+
+    #brownblob {
+        display: none;
+    }
+
+    #hand {
+        height: 300px;
+        width: 200px;
+    }
+
+    #hand img {
+        scale: 0.4;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #offers h2 {
+        font-size: 12px;
+    }
+
+    #right h4 {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+
+    #left input {
+        width: 100px;
+        padding: 0 0.5vw;
+    }
+
+    #Blob,
+    #brownblob {
+        display: none;
+    }
+
+    #left-text,
+    #right-text {
+        font-size: 4vw;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #hand {
+        height: 200px;
+        width: 150px;
+    }
+
+    #hand img {
+        scale: 0.3;
+    }
+
+    #tagline,
+    #Info,
+    #shopnow {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5 {
+        height: 20px;
+        width: 20px;
+    }
+}
