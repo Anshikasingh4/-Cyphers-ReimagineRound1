@@ -998,7 +998,7 @@ html,body {
     font-size: 15px;
 }
 
-@media (max-width:550px) {
+@media (max-width:450px) {
     #page1 {
         font-family: "isidora";
         overflow: hidden;
