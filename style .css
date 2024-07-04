@@ -1296,7 +1296,7 @@ html,body {
     }
  */
 
- @media screen and (max-width: 1024px) {
+ /* @media screen and (max-width: 1024px) {
     #left input {
         width: 180px;
         margin-left: 10px;
@@ -1327,7 +1327,7 @@ html,body {
 
     #left-text,
     #right-text {
-        font-size: 8vw;
+        font-size: 12vw;
         margin-left: 140px;
         margin-right: 120px;
     }
@@ -1347,6 +1347,7 @@ html,body {
     }
 
     #Info {
+        margin-top: 200px;
         margin-left: 200px;
         padding: 80px 5px;
         height: 100px;
@@ -1355,6 +1356,7 @@ html,body {
 
     #shopnow {
         margin-left: 160px;
+        margin-top: 400px;
     }
 
     #img1,
@@ -1440,7 +1442,7 @@ html,body {
     #hand img {
         scale: 0.4;
     }
-}
+} */
 
 @media screen and (max-width: 480px) {
     #offers h2 {
@@ -1459,9 +1461,12 @@ html,body {
 
     #Blob,
     #brownblob {
-        display: none;
+        display: flex;
     }
-
+    
+    #Blob{
+        margin-left: 800px;
+    }
     #left-text,
     #right-text {
         font-size: 4vw;
@@ -1475,7 +1480,7 @@ html,body {
     }
 
     #hand img {
-        scale: 0.3;
+        scale: 0.6;
     }
 
     #tagline,
@@ -1483,6 +1488,7 @@ html,body {
     #shopnow {
         width: 100%;
         margin-left: 0;
+        margin-top: 300px;
         text-align: center;
     }
 
@@ -1491,7 +1497,7 @@ html,body {
     #img3,
     #img4,
     #img5 {
-        height: 20px;
-        width: 20px;
+        height: 40px;
+        width: 40px;
     }
 }
