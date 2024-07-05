@@ -998,7 +998,7 @@ html,body {
     font-size: 15px;
 }
 
-/*@media (max-width:600px) {
+@media (max-width:600px) {
     #page1 {
         font-family: "isidora";
         overflow: hidden;
@@ -1027,12 +1027,21 @@ html,body {
         font-weight: 500;
     }
 
+    #left{
+        display: flex;
+    }
+
     #left input {
-        display: none;
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 10px;
+        width: 28%;
     }
 
     #left i {
-        display: none;
+        scale: 0.76;
+       position: relative;
+       margin-top: 70px;
     }
 
     #right {
@@ -1040,7 +1049,12 @@ html,body {
         margin-right: 22px;
         width: 30%;
     }
-
+    
+    #right h4{
+        position: relative;
+        margin-top: 70px;
+        margin-right: 80px;
+    }
     #cart i {
         margin-left: 24px;
         font-size: 24px;
@@ -1079,12 +1093,11 @@ html,body {
     }
 
     #hand img {
-        height: 100%;
-        width: 100%;
+        scale: 0.6;
         object-fit: cover;
         object-position: center;
-        margin-top: 140px;
-        margin-right: 20px;
+        margin-top: 160px;
+        margin-right: 30px;
     }
 
     #bgline {
@@ -1121,12 +1134,12 @@ html,body {
     }
 
     #left-text {
-        margin-left: 40px;
+        margin-left: 10px;
         font-size: 50px;
     }
 
     #right-text {
-        margin-right: 16px;
+        margin-right: -3px;
         font-size: 50px;
     }
 
@@ -1144,7 +1157,7 @@ html,body {
 
     #tagline {
         margin-top: 190px;
-        margin-left: 15px;
+        margin-left: 6px;
         height: 25px;
         width: 110px;
         padding: 2vw 3.5vw;
@@ -1155,15 +1168,8 @@ html,body {
         font-size: 3vw;
     }
 
-    #Info {
-        padding: 0px;
-        margin-top: 260px;
-        margin-left: -16px;
-        height: 120px;
-        width: 200px;
-    }
-
     #Info p {
+        display: none;
         font-weight: 500;
         margin-top: 6px;
         font-size: 1.6vw;
@@ -1175,7 +1181,7 @@ html,body {
         border-radius: 5px;
         background-color: #C8A579;
         margin-top: 260px;
-        margin-left: 130px;
+        margin-left: 120px;
     }
 
     #shopnow h4 {
@@ -1190,8 +1196,8 @@ html,body {
     }
 
     #img1 {
-        margin-left: 340px;
-        margin-top: -70px;
+        margin-left: 250px;
+        margin-top: -170px;
         height: 100%;
         width: 100%;
         object-fit: contain;
@@ -1201,7 +1207,7 @@ html,body {
 
     #img2 {
         
-        margin-left: 4px;
+        margin-left: 30px;
         margin-top: -125px;
         height: 120%;
         width: 120%;
@@ -1236,291 +1242,9 @@ html,body {
         height: 100%;
         width: 100%;
         object-fit: contain;
-        object-position: center;  }
+        object-position: center; 
+     }
     
-    
-    #page2{
-        font-family: "morgan";
-        overflow: hidden;
-        position: relative;
-        height: 100vh;
-        width: 100%;
-        background-color: #EFEAE3;
 
     }
-
-    #container1 {
-        padding: 2vw;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    #Showcase {
-        display: flex;
-        align-items: center;
-        padding: 10vw 0;
-        height: 660px;
-        width: 900px;
-    
-    }
-    
-    .swiper {
-        width: 100%;
-        height: 580px;
-        border-radius: 20px; 
-    }
-    
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .swiper-slide img {
-        border-radius: 15px; 
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        /* object-position: -900px; 
-    }
-
-    } */
  
-
-  @media screen and (max-width: 1024px) {
-    #left input {
-        width: 180px;
-        margin-left: 10px;
-        padding: 0 1vw;
-    }
-
-    #right h4 {
-        font-size: 10px;
-        padding: 5px 15px;
-    }
-
-    #Blob {
-        margin-top: 70px;
-        margin-left: 100px;
-        height: 150px;
-        width: 150px;
-    }
-
-    #hand {
-        height: 400px;
-        width: 300px;
-    }
-
-    #hand img {
-        margin-top: 20px;
-        scale: 0.5;
-    }
-
-    #left-text,
-    #right-text {
-        font-size: 12vw;
-        margin-left: 140px;
-        margin-right: 120px;
-    }
-
-    #center {
-        height: 80vh;
-    }
-
-    #container {
-        height: 400px;
-    }
-
-    #tagline {
-        margin-left: 200px;
-        height: 24px;
-        width: 150px;
-    }
-
-    #Info {
-        margin-top: 200px;
-        margin-left: 200px;
-        padding: 80px 5px;
-        height: 100px;
-        width: 150px;
-    }
-
-    #shopnow {
-        margin-left: 160px;
-        margin-top: 400px;
-    }
-
-    #img1,
-    #img2,
-    #img3,
-    #img4,
-    #img5 {
-        height: 40px;
-        width: 40px;
-    }
-
-    #brownblob {
-        margin-bottom: 100px;
-        margin-left: 50px;
-        height: 200px;
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #nav {
-        flex-direction: column;
-        padding: 2vw 2vw;
-        height: auto;
-    }
-
-    #left,
-    #right {
-        width: 100%;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-
-    #left input {
-        width: 150px;
-        margin-left: 5px;
-        padding: 0 0.5vw;
-    }
-
-    #Blob {
-        display: none;
-    }
-
-    #center {
-        height: 70vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    #left-text,
-    #right-text {
-        font-size: 6vw;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    #tagline,
-    #Info,
-    #shopnow {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    #img1,
-    #img2,
-    #img3,
-    #img4,
-    #img5 {
-        height: 30px;
-        width: 30px;
-    }
-
-    #brownblob {
-        display: none;
-    }
-
-    #hand {
-        height: 300px;
-        width: 200px;
-    }
-
-    #hand img {
-        scale: 0.4;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #offers h2 {
-        font-size: 12px;
-    }
-
-    #right h4 {
-        font-size: 8px;
-        padding: 5px 10px;
-    }
-
-    #left input {
-        width: 100px;
-        padding: 0 0.5vw;
-    }
-    
-    #bgline{
-        display: none;
-    }
-    #Blob,
-    #brownblob {
-        display: flex;
-        margin-top: 110px;
-        height: 200px;
-        width: 200px;
-    }
-    
-    #Blob{
-        margin-left: 800px;
-    }
-    #left-text,
-    #right-text {
-        font-size: 11vw;
-        margin-left: 30px;
-        margin-right: -10px;
-    }
-
-    #hand {
-        height: 200px;
-        width: 150px;
-    }
-
-    #hand img {
-        margin-top: 110px;
-        scale: 0.6;
-    }
-    #tagline,
-    #shopnow {
-        width: 80%;
-        margin-left: 0;
-        /* margin-top: 400px; */
-        text-align: center;
-    }
-    #tagline{
-        margin-top: -210px;
-        width: 60%;
-        margin-left: 10px;
-        /* font-size: x-small; */
-    }
-    #shopnow{
-        width: 40%;
-
-
-    }
-    #info{
-        display: flex;
-        font-size: small;
-        margin-top: 400px;
-    }
-    #img2{
-        margin-top: 90px;
-    }
-
-    /* #img1, */
-    /* #img2, */
-    #img3,
-    #img4,#img5 {
-        margin-left: 70px;
-        margin-right: 100px;
-        margin-bottom: 60px;
-        /* margin-top: 20px; */
-        height: 50px;
-        width: 50px;
-    }
-
-}
