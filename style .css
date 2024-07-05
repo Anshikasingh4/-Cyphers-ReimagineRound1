@@ -1094,11 +1094,11 @@ html,body {
     }
 
     #hand img {
-        scale: 0.9;
+        scale: 0.7;
         object-fit: cover;
         object-position: center;
         margin-top: -100px;
-        margin-right: 65px;
+        margin-right: 50px;
     }
 
     #bgline {
@@ -1135,13 +1135,13 @@ html,body {
     }
 
     #left-text {
-        margin-top: 140px;
+        margin-top: -30px;
         margin-left: 10px;
         font-size: 50px;
     }
 
     #right-text {
-        margin-top: 140px;
+        margin-top: -30px;
         margin-right: -3px;
         font-size: 50px;
     }
@@ -1224,13 +1224,13 @@ html,body {
         width: 140%;
         object-fit: contain;
         object-position: center;
-        margin-top: -230px;
-        margin-left: 180px;
+        margin-top: -240px;
+        margin-left: 155px;
     }
 
     #img4 {
        
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: -120px;
         height: 80%;
         width: 80%;
