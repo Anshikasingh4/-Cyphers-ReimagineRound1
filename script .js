@@ -207,7 +207,7 @@ if (mediaQuery.matches)
       end: "top -200%",
       scrub: 1,
       delay: 0.8,
-      pin: true,
+      // pin: true,
     }
   })
 
@@ -221,7 +221,7 @@ if (mediaQuery.matches)
       end: "top -200%",
       scrub: 1,
       delay: 0.8,
-      pin: true,
+      // pin: true,
     }
   })
   function videospeed() {
