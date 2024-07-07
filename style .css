@@ -1,18 +1,18 @@
 @font-face {
     font-family: "morgan";
-    src: url(resources/morgan-font-1719892164-0.zip);
+    src: url(resources/Morgan-BF6625f31c55dcb.otf);
 }
 
 @font-face {
     font-family: "isidora";
-    src: url(resources/isidora-1719892513-0.zip);
+    src: url(resources/isidora-regular.otf);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "isidora";
+    /* font-family: "isidora"; */
 }
 
 html,body {
@@ -48,7 +48,6 @@ html,body {
 }
 
 #page1 {
-    font-family: "isidora";
     overflow: hidden;
     position: relative;
     height: 100vh;
@@ -284,7 +283,6 @@ html,body {
 }
 
 #left-text {
-    font-family: "isidora";
     font-weight: 800;
     margin-left: 280px;
     animation-name: moving-text1;
@@ -296,7 +294,6 @@ html,body {
 }
 
 #right-text {
-    font-family: "isidora";
     font-weight: 800;
     margin-right: 235px;
     animation-name: moving-text2;
@@ -546,7 +543,6 @@ html,body {
 #TextContain h1 {
     /* margin-top: -10px; */
     font-weight: 500;
-    font-family: "resources/morgan-font-1719892164-0.zip";
     color: rgba(0, 0, 0, 0.989);
     font-size: 12.5vw;
     white-space: nowrap;
@@ -555,21 +551,18 @@ html,body {
 
 #TextContain h2 {
     font-weight: 500;
-    font-family: "morgan";
     font-size: 11vw;
     white-space: nowrap;
     color: black;
     position: relative;
 }
 #TextContain h1 span{
-    font-family: "morgan";
     font-weight: 500;
     color: #6C1313;
 }
 #TextContain h3 {
     margin-top: 15px;
     font-weight: 500;
-    font-family: "morgan";
     font-size: 11vw;
     white-space: nowrap;
     color: rgb(0, 0, 0);
@@ -589,10 +582,20 @@ html,body {
     padding: 2vw 1vw;
 }
 
+.parent {
+    height: 300px;
+    width: 100%;
+}
+.parent2 {
+    height: 400px;
+    width: 100%;
+}
+
 .product-headline{
     padding: 2vw 0;
     margin-top: -70px;
     display: flex;
+    font-family: "morgan";
     align-items: center;
     justify-content: center;
     height: 100px;
@@ -1137,13 +1140,13 @@ html,body {
 
     #left-text {
         margin-top: -30px;
-        margin-left: 10px;
+        margin-left: 20px;
         font-size: 50px;
     }
 
     #right-text {
         margin-top: -30px;
-        margin-right: -3px;
+        margin-right: 10px;
         font-size: 50px;
     }
 
@@ -1249,6 +1252,127 @@ html,body {
         object-position: center; 
      }
     
-
+     #container1 {
+        flex-direction: column;
+        /* padding: -1vw; */
+        
     }
+
+    #Showcase {
+        height: 500px;
+        margin-left: -10px;
+    }
+    
+    .swiper-wrapper{
+        margin-left: -40px;
+        height: 700px;
+        /* width: 60%; */
+    }
+
+    .swiper-slide img{
+       scale: 1;
+       margin-left: -40px;
+    }
+
+    #TextContain {
+        height: auto;
+    }
+
+    #TextContain h1 {
+        font-size: 12vw;
+    }
+
+    #TextContain h2, #TextContain h3 {
+        font-size: 12vw;
+    }
+    
+    #page3{
+        height: 50%;
+    }
+
+    .parent {
+        height: 400px;
+        width: 100%;
+        overflow-y: hidden;
+        overflow-x: auto;
+        /* background-color: red; */
+    }
+
+    .parent::-webkit-scrollbar {
+        display: none;
+    }
+
+    .products {
+        margin-left: 1vw;
+        margin-top: 40px;
+        height: 150px;
+        width: 100px;
+        border-radius: 15px;
+        gap: 120px;
+    }
+
+
+    .price-card {
+        height: 170px;
+        width: 200px;
+        gap: 2px;
+    }
+
+    .parent2 {
+        height: 400px;
+        width: 100%;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+    .parent2::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .products2 {
+        margin-left: 1vw;
+        margin-top: 40px;
+        height: 150px;
+        width: 100px;
+        border-radius: 15px;
+        gap: 120px;
+    }
+    #text-Container{
+        display: none;
+    }
+    #clipscontain{
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        height: 700px;
+    }
+
+    #logocontainer{
+        margin-top: -60px;
+    }
+    #page4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-div {
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+      }
+    .social-media{
+        margin-top: 475px;
+        margin-left: 150px;
+    }
+
+    .btn input{
+        width: 70%;
+    }
+    .btn h4{
+        margin-top: 10px;
+        margin-right: 60px;
+    }  
+}
+
+    
  

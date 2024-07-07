@@ -160,19 +160,6 @@ function laodder() {
   })
 }
 
-function Page3Swiper(){
-  var swiper = new Swiper(".mySwiper2", {
-   slidesPerView:"auto", 
-  // centeredSlides: true,
-  loop:true,
-  spaceBetween: 40,
-  pagination: {
-    el: ".swiper-scrollbar",
-    clickable: true,
-  },
-});
-}
-
 Movingcursor();
 page2MovingText();
 swiper();
@@ -180,3 +167,75 @@ videospeed();
 page3Textanimation();
 laodder();
 Page3Swiper();
+
+const mediaQuery = window.matchMedia('(max-width: 600px)')
+if (mediaQuery.matches) {
+  document.addEventListener("DOMContentLoaded", function() {
+    var swiper = new Swiper(".mySwiper1", {
+        direction: "vertical",
+        effect: "fade",
+        autoplay: {
+            delay: 2700,
+            disableOnInteraction: false,
+        },
+    });
+});
+if (mediaQuery.matches)
+  function page2MovingText() {
+
+  gsap.to("#TextContain h1", {
+    transform: "translateX(-130%)",
+    scrollTrigger: {
+      trigger: "#page2",
+      scroller: "#main",
+      // markers:true,
+      start: "top 0%",
+      end: "top -200%",
+      scrub: 1,
+      delay: 0.6,
+      // pin:true,
+    }
+  })
+
+  gsap.from("#TextContain h2", {
+    transform: "translateX(-140%)",
+    scrollTrigger: {
+      trigger: "page2",
+      scroller: "#main",
+      // markers:true,
+      start: "top 0%",
+      end: "top -200%",
+      scrub: 1,
+      delay: 0.8,
+      pin: true,
+    }
+  })
+
+  gsap.to("#TextContain h3", {
+    transform: "translateX(-150%)",
+    scrollTrigger: {
+      trigger: "#page2",
+      scroller: "#main",
+      // markers:true,
+      start: "top 0%",
+      end: "top -200%",
+      scrub: 1,
+      delay: 0.8,
+      pin: true,
+    }
+  })
+  function videospeed() {
+
+    let vid = document.getElementById("videoW");
+  
+    function getPlaySpeed() {
+      alert(vid.playbackRate);
+      vid.playbackRate = 2.5;
+    }
+  
+    function setPlaySpeed() {
+      vid.playbackRate = 1.5;
+    }
+  }
+} 
+}
