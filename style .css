@@ -1348,7 +1348,7 @@ html,body {
     #clipscontain{
         margin-top: -100px;
         display: flex;
-        gap: 20px;
+        gap: 10px;
         flex-direction: column;
         width: 1200px;
         height: 700px;
